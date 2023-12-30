@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    background-image: linear-gradient(rgb(87, 103, 228), 
+    rgb(85, 109, 206),
+     rgb(238, 225, 225));
+     color: white;
+     user-select: none;
+     font-family: "Oswald", serif, "Times";
+}
+
+.curvedText{
+    display: flex;
+    position: relative;
+    top: 32%;
+    left: 20%;
+    font-size: large;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+path{
+    fill: transparent;
+}
+
+text{
+    fill: #8fde648c;
+}
+
+
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: block;
+}
+
+.container .title{
+    color: rgb(225, 214, 219);
+    align-items: center;
+    display: flex;
+    top: 48%;
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    transition: transform 285ms ease-in-out;
+    text-decoration: underline;
+    cursor: text;
+}
+
+.title:hover{
+    transform: translateX(-14px);
+    color: rgb(233, 184, 233);
+}
+
+.container .gitHub {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    top: 56%;
+    left: 45%;
+    position: absolute;
+    cursor: pointer;
+    transition: transform 275ms ease-in-out;
+    text-decoration: underline;
+    color: white;
+}
+
+.gitHub:hover {
+    transform: translateX(8px);
+    color: rgb(238, 238, 50);
+}
+
+.container .youTube{
+    display: flex;
+    top: 57%;
+    left: 45%;
+    position: absolute;
+    cursor: cell;
+    text-decoration: underline;
+    transition: transform 275ms ease-in-out;
+    white-space: nowrap;
+    color: white;
+}
+
+.container .youTube:hover{
+    transform: translateX(-10px);
+    color: rgb(238, 238, 50);
+}
+
+.container .song{
+    display: flex;
+    top: 61%;
+    left: 45%;
+    position: absolute;
+    cursor: help;
+    text-decoration: underline;
+    transition: transform 275ms ease-in-out;
+    white-space: nowrap;
+    color: white;
+}
+
+.song:hover{
+    transform: translateX(5px);
+    color: rgb(238, 238, 50);
+}
